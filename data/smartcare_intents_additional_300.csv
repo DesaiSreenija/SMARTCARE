@@ -1,0 +1,301 @@
+text,intent
+Show me the medicines in my record,view_medications
+Can you list my current medicines,view_medications
+Which medications are saved in my profile,view_medications
+Display the list of my medicines,view_medications
+What medications are recorded for me,view_medications
+Open my medication list,view_medications
+Let me view my medicines,view_medications
+Find my medication records,view_medications
+Show all medicines associated with my profile,view_medications
+Can I see the drugs listed in my record,view_medications
+Give me my current medication list,view_medications
+List the medications I have on file,view_medications
+What medicines are in my health record,view_medications
+Retrieve my medication details,view_medications
+View the medications recorded for this patient,view_medications
+Please display my medicine records,view_medications
+Which medicines have been entered for me,view_medications
+Show the medication section of my record,view_medications
+Can you pull up my medications,view_medications
+Tell me which medications are listed,view_medications
+Show the names of my recorded medicines,view_medications
+Display my current medication information,view_medications
+I want to review my medication list,view_medications
+Find the medicines saved for me,view_medications
+Read out the medications in my record,view_medications
+List my recorded drugs,view_medications
+Show the medication entries in my profile,view_medications
+What medicine records do I have,view_medications
+Can you retrieve my list of medications,view_medications
+Let me check my recorded medicines,view_medications
+Show my full medication list,view_medications
+Display all medication entries,view_medications
+Which drugs are currently listed in my record,view_medications
+Look up my medication list,view_medications
+Show the medicines I have entered,view_medications
+Find my current medicine information,view_medications
+Can I review the medication records,view_medications
+Please list all my recorded medications,view_medications
+Show the medication names in my PHR,view_medications
+Retrieve the medicine list from my profile,view_medications
+What medications can you see in my record,view_medications
+Display the medicines I have on file,view_medications
+Bring up my recorded medication list,view_medications
+Show the medicines associated with my health profile,view_medications
+Tell me the medication names in my record,view_medications
+Can you show the medication table,view_medications
+List all the medicine records for me,view_medications
+View my saved medication information,view_medications
+Show the medications section,view_medications
+Please open my list of medicines,view_medications
+Show when I should take each medicine,medication_schedule
+What times are my medicines scheduled for,medication_schedule
+Display my medication timetable,medication_schedule
+Tell me the timing of my medicines,medication_schedule
+When are my medications due,medication_schedule
+List the scheduled times for my medication,medication_schedule
+Show the daily medicine timings in my record,medication_schedule
+What is the timing for each medication,medication_schedule
+Can you display my medicine schedule,medication_schedule
+At what times are my medicines listed,medication_schedule
+Give me the medication timetable,medication_schedule
+Check the schedule for my medications,medication_schedule
+Show the recorded dosage schedule,medication_schedule
+When should each medication be taken according to my record,medication_schedule
+Find the times saved for my medicines,medication_schedule
+Display the schedule associated with my medicines,medication_schedule
+What medication times are on file,medication_schedule
+Can I see my medicine timing details,medication_schedule
+List my recorded medication timings,medication_schedule
+Show the timing information for my drugs,medication_schedule
+Retrieve my medication schedule,medication_schedule
+What is my recorded medicine routine,medication_schedule
+Open the medication schedule section,medication_schedule
+Tell me the scheduled time for my medicines,medication_schedule
+Show the times assigned to my medications,medication_schedule
+Which times are listed for my medication,medication_schedule
+Display my medicine-taking schedule,medication_schedule
+Check when each medicine is scheduled,medication_schedule
+Give me the recorded schedule for my drugs,medication_schedule
+Can you look up my medication timings,medication_schedule
+What schedule is recorded for my medicines,medication_schedule
+Show my prescribed medicine timing information,medication_schedule
+Find my daily medication schedule,medication_schedule
+Show the medication timing entries,medication_schedule
+When does my medication schedule say to take them,medication_schedule
+Display the medicine schedule from my profile,medication_schedule
+List the times in my medication plan,medication_schedule
+Can you retrieve the timing of each medicine,medication_schedule
+Show me the scheduled medication details,medication_schedule
+What are the recorded times for my medicines,medication_schedule
+Review my medicine schedule,medication_schedule
+Pull up my medication timetable,medication_schedule
+Tell me the medication schedule stored in my record,medication_schedule
+Show the time slots for my medicines,medication_schedule
+Which medicine timings are saved,medication_schedule
+Display all medication schedule details,medication_schedule
+Look up my medicine routine,medication_schedule
+Can you show when my medications are scheduled,medication_schedule
+Give me the times recorded for my medication,medication_schedule
+View the schedule for my current medicines,medication_schedule
+List the allergies saved in my health record,view_allergies
+Show the allergy details in my profile,view_allergies
+Can you display my allergy records,view_allergies
+What allergies are recorded for me,view_allergies
+Open my allergy information,view_allergies
+Find the allergies listed in my record,view_allergies
+Show my saved allergy entries,view_allergies
+Do I have allergy information on file,view_allergies
+Retrieve my allergy list,view_allergies
+Display all recorded allergies,view_allergies
+Which allergies are listed in my profile,view_allergies
+Let me view my allergy records,view_allergies
+Show the allergies section of my PHR,view_allergies
+Tell me what allergies are documented,view_allergies
+Look up my recorded allergies,view_allergies
+Can I see the allergy details stored for me,view_allergies
+List the allergy entries in my profile,view_allergies
+Show the allergy information I have provided,view_allergies
+What allergy records do I have,view_allergies
+Please display my allergies,view_allergies
+Check my health profile for allergy records,view_allergies
+Show all allergy information on file,view_allergies
+Which allergies have been entered into my record,view_allergies
+Can you pull up my allergy list,view_allergies
+Retrieve the allergies from my profile,view_allergies
+Display the allergies recorded in my PHR,view_allergies
+Let me check the allergies in my record,view_allergies
+Find my saved allergy information,view_allergies
+Show the recorded allergy details,view_allergies
+View my documented allergies,view_allergies
+What allergies does my record contain,view_allergies
+Bring up my allergy section,view_allergies
+List all allergies associated with my profile,view_allergies
+Show me the allergies stored in the database,view_allergies
+Can you open my allergy record,view_allergies
+Review the allergy information in my health record,view_allergies
+Tell me which allergies are on file,view_allergies
+Display my current allergy records,view_allergies
+Show the list of reported allergies,view_allergies
+Search my record for allergies,view_allergies
+Can you list the allergies I reported,view_allergies
+Show the allergy entries saved for me,view_allergies
+Retrieve my recorded allergy information,view_allergies
+Which allergy details are available in my profile,view_allergies
+Display my known allergy records,view_allergies
+Show the allergies field from my record,view_allergies
+Check what allergies are documented for me,view_allergies
+Open the saved allergy list,view_allergies
+View the allergy data in my profile,view_allergies
+Can you show my recorded allergy information,view_allergies
+Show the appointments saved in my record,view_appointments
+List my upcoming healthcare appointments,view_appointments
+Can you display my appointment list,view_appointments
+When is my next scheduled visit,view_appointments
+Show my recorded doctor visits,view_appointments
+Find the appointments in my profile,view_appointments
+Display my medical appointment details,view_appointments
+What appointments are listed for me,view_appointments
+Open my appointment schedule,view_appointments
+Tell me which appointments are on file,view_appointments
+Retrieve my upcoming appointment information,view_appointments
+Show the appointment section of my health record,view_appointments
+Do I have any visits scheduled,view_appointments
+List the medical visits recorded for me,view_appointments
+Can I see my appointment records,view_appointments
+Display all appointments in my profile,view_appointments
+Look up my next appointment,view_appointments
+Show the dates of my recorded appointments,view_appointments
+What is the next visit in my record,view_appointments
+Find my scheduled healthcare visits,view_appointments
+Show the medical appointments I have entered,view_appointments
+Can you pull up my appointment details,view_appointments
+View my saved appointment information,view_appointments
+Tell me about the appointments in my record,view_appointments
+List the visits stored in my profile,view_appointments
+Check my health record for appointments,view_appointments
+Show all recorded medical visits,view_appointments
+Which appointments have been recorded,view_appointments
+Retrieve my appointment list,view_appointments
+Display my upcoming medical visits,view_appointments
+Show me the visits scheduled in my record,view_appointments
+Can you check my appointment schedule,view_appointments
+Open the list of my medical appointments,view_appointments
+View the appointment entries in my PHR,view_appointments
+Give me a summary of my recorded appointments,view_appointments
+Find the next appointment saved for me,view_appointments
+What visit dates are listed in my profile,view_appointments
+Show the appointment details on file,view_appointments
+List my scheduled clinic visits,view_appointments
+Bring up my healthcare appointments,view_appointments
+Show the appointment records for this patient,view_appointments
+Can I review my scheduled visits,view_appointments
+Display the dates and details of my appointments,view_appointments
+Which medical visits are in my record,view_appointments
+Look at my saved appointment records,view_appointments
+Show my clinic appointment information,view_appointments
+Retrieve the appointments associated with my profile,view_appointments
+Can you list my doctor appointments,view_appointments
+Check the recorded appointments for me,view_appointments
+Show my next scheduled medical appointment,view_appointments
+Summarize the measurements saved in my record,summarize_health_trends
+Show how my health readings changed over time,summarize_health_trends
+Give me a trend summary of my measurements,summarize_health_trends
+Compare the earliest and latest readings,summarize_health_trends
+Review the history of my recorded measurements,summarize_health_trends
+Display trends in my health measurements,summarize_health_trends
+Summarize my measurement records,summarize_health_trends
+What patterns appear in my recorded readings,summarize_health_trends
+Show the changes across my measurement history,summarize_health_trends
+Analyze the measurements stored in my profile,summarize_health_trends
+Give me an overview of my health data trends,summarize_health_trends
+How have my recorded readings varied,summarize_health_trends
+Compare my past and recent measurements,summarize_health_trends
+Show the history of my health readings,summarize_health_trends
+Summarize changes in my measurement data,summarize_health_trends
+Can you review trends in my recorded health data,summarize_health_trends
+Tell me how my measurements have changed,summarize_health_trends
+Provide a summary of my health measurement history,summarize_health_trends
+Show my latest readings compared with earlier ones,summarize_health_trends
+Identify trends in my saved measurements,summarize_health_trends
+Give me a descriptive summary of my readings,summarize_health_trends
+How do my recent measurements compare with older ones,summarize_health_trends
+Display the trend for my recorded measurements,summarize_health_trends
+Review the changes in my health record measurements,summarize_health_trends
+Summarize the values in my measurement history,summarize_health_trends
+Show an overview of my measurement trends,summarize_health_trends
+Compare the first and most recent measurements,summarize_health_trends
+Tell me what changed in my recorded health readings,summarize_health_trends
+Can you summarize my health trends,summarize_health_trends
+Show the pattern in my measurement records,summarize_health_trends
+Analyze changes in my saved health readings,summarize_health_trends
+Give me a report on measurement trends,summarize_health_trends
+How have the values in my record changed,summarize_health_trends
+Show a comparison of old and new measurements,summarize_health_trends
+Summarize my recorded health readings over time,summarize_health_trends
+Check for changes in my measurement history,summarize_health_trends
+Display a summary of my measurement trends,summarize_health_trends
+Review my health readings chronologically,summarize_health_trends
+Describe the changes in the measurements I recorded,summarize_health_trends
+Show my recorded readings over time,summarize_health_trends
+Can you compare my measurement values,summarize_health_trends
+Provide a trend report for my health measurements,summarize_health_trends
+Explain the changes in my recorded measurements descriptively,summarize_health_trends
+Summarize the latest and earliest measurement values,summarize_health_trends
+Show the evolution of my recorded readings,summarize_health_trends
+Look for patterns in my health measurement history,summarize_health_trends
+Give me a historical summary of my measurements,summarize_health_trends
+Compare the measurements in my health profile,summarize_health_trends
+Show trends from my stored measurement data,summarize_health_trends
+Create a descriptive summary of my measurement history,summarize_health_trends
+Write a poem about the ocean,unknown
+Tell me a funny joke,unknown
+What is the capital of Japan,unknown
+Help me prepare for a job interview,unknown
+Explain how a bicycle works,unknown
+Recommend a science fiction book,unknown
+Write a birthday greeting for my friend,unknown
+Who won the football match yesterday,unknown
+Give me a recipe for pancakes,unknown
+Tell me a story about a robot,unknown
+How do I learn Python programming,unknown
+Explain the rules of chess,unknown
+Suggest a weekend travel destination,unknown
+Write a short song about summer,unknown
+Can you solve this algebra problem,unknown
+Tell me a fun fact about dinosaurs,unknown
+Help me plan a birthday party,unknown
+What is the weather like in Paris,unknown
+Recommend a movie for tonight,unknown
+Explain the history of the Roman Empire,unknown
+Write a cover letter for a software job,unknown
+How can I improve my public speaking,unknown
+Give me ideas for a school project,unknown
+Tell me about the planets in our solar system,unknown
+Translate hello into Spanish,unknown
+Create a workout playlist,unknown
+Suggest names for a new business,unknown
+Explain how a camera works,unknown
+Write a mystery story,unknown
+What are some good gardening tips,unknown
+Help me organize a study timetable,unknown
+Give me a motivational quote,unknown
+Describe the Eiffel Tower,unknown
+How do I bake chocolate cookies,unknown
+Recommend a podcast about technology,unknown
+Explain the difference between Java and Python,unknown
+Help me draft an email to my professor,unknown
+Tell me a riddle,unknown
+Suggest a gift for a colleague,unknown
+Write a paragraph about climate change,unknown
+How do airplanes stay in the air,unknown
+Give me tips for learning guitar,unknown
+Create a packing list for a holiday,unknown
+Explain the basics of photography,unknown
+Tell me about famous painters,unknown
+Help me plan a budget for a trip,unknown
+Suggest a name for a pet cat,unknown
+Write a social media caption for a sunset,unknown
+Explain how rainbows form,unknown
+Give me some trivia questions,unknown
