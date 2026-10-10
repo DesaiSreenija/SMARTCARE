@@ -9,7 +9,13 @@ from datetime import date, datetime, time
 from src.alert_service import get_patient_alerts
 from src.patient_service import add_patient
 from src.record_service import add_measurement
-from src.record_service import add_measurement, add_appointment
+
+from src.record_service import (
+    add_measurement,
+    add_appointment,
+    add_medication,
+    add_allergy,
+)
 
 from src.trend_service import (
     get_measurements,
@@ -247,6 +253,31 @@ with tab1:
             )
         else:
             st.info("No dose events have been recorded yet.")
+    
+    
+    with st.expander("➕ Add Medication"):
+        with st.form("add_medication_form"):
+            medication_name = st.text_input("Medication Name")
+            dosage = st.text_input("Dosage", placeholder="e.g., 500 mg")
+            schedule = st.text_input(
+                "Schedule",
+                placeholder="e.g., Twice daily"
+            )
+
+            submitted = st.form_submit_button("Save Medication")
+
+            if submitted:
+                try:
+                    add_medication(
+                        selected_id,
+                        medication_name,
+                        dosage,
+                        schedule
+                    )
+                    st.success("Medication added successfully!")
+                    st.rerun()
+                except ValueError as e:
+                    st.error(str(e))
 
 
 with tab3:
@@ -360,6 +391,32 @@ with tab2:
         st.info("No allergy information is recorded.")
     else:
         st.dataframe(allergies, use_container_width=True)
+    
+    with st.expander("➕ Add Allergy"):
+        with st.form("add_allergy_form"):
+            allergen = st.text_input(
+                "Allergen",
+                placeholder="e.g., Peanuts"
+            )
+            reaction = st.text_input(
+                "Reaction (optional)",
+                placeholder="e.g., Skin rash"
+            )
+
+            submitted = st.form_submit_button("Save Allergy")
+
+            if submitted:
+                try:
+                    add_allergy(
+                        selected_id,
+                        allergen,
+                        reaction
+                    )
+                    st.success("Allergy added successfully!")
+                    st.rerun()
+                except ValueError as e:
+                    st.error(str(e))
+
 
 with tab4:
     st.subheader("Appointments")

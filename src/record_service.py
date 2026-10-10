@@ -113,3 +113,61 @@ def add_appointment(
                 status,
             ),
         )
+
+
+def add_medication(patient_id, medication_name, dosage, schedule):
+    """Add a medication record for an existing patient."""
+    medication_name = medication_name.strip()
+    dosage = dosage.strip()
+    schedule = schedule.strip()
+
+    if not medication_name or not dosage or not schedule:
+        raise ValueError("Medication name, dosage, and schedule are required.")
+
+    with get_connection() as conn:
+        patient = conn.execute(
+            "SELECT patient_id FROM patients WHERE patient_id = ?",
+            (patient_id,)
+        ).fetchone()
+
+        if not patient:
+            raise ValueError("Patient does not exist.")
+
+        conn.execute(
+            """
+            INSERT INTO medications
+                (patient_id, medication_name, dosage, schedule)
+            VALUES (?, ?, ?, ?)
+            """,
+            (patient_id, medication_name, dosage, schedule)
+        )
+
+        conn.commit()
+
+
+def add_allergy(patient_id, allergen, reaction=""):
+    """Add an allergy record for an existing patient."""
+    allergen = allergen.strip()
+    reaction = reaction.strip()
+
+    if not allergen:
+        raise ValueError("Allergen is required.")
+
+    with get_connection() as conn:
+        patient = conn.execute(
+            "SELECT patient_id FROM patients WHERE patient_id = ?",
+            (patient_id,)
+        ).fetchone()
+
+        if not patient:
+            raise ValueError("Patient does not exist.")
+
+        conn.execute(
+            """
+            INSERT INTO allergies (patient_id, allergen, reaction)
+            VALUES (?, ?, ?)
+            """,
+            (patient_id, allergen, reaction or None)
+        )
+
+        conn.commit()
